@@ -1,0 +1,63 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de instancia Flask
+instance/
+!instance/.gitignore
+
+# Cachés y temporales
+*.log
+*.pot
+*.mo
+*.swp
+*.bak
+*.tmp
+*.DS_Store
+*.coverage
+.cache/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+
+# Archivos de configuración local
+.env
+*.env
+*.ini
+*.cfg
+
+# Archivos de distribución
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Documentación generada
+docs/_build/
+
+# Archivos de herramientas
+celerybeat-schedule
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de proyectos específicos
+.ropeproject/
+.spyderproject/
+.spyproject/
+.mr.developer.cfg
+.project
+.pydevproject
