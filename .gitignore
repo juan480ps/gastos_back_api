@@ -5,12 +5,12 @@ env/
 .venv/
 
 # Archivos de Python compilados
-# __pycache__/
+__pycache__/
 *.py[cod]
 *$py.class
 
 # Configuración de IDEs
-.vscode/
+# .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
